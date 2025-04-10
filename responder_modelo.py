@@ -6,7 +6,7 @@ from urllib.parse import quote
 from langdetect import detect
 
 # Configuración inicial
-modelo_path = r"C:\xampp\htdocs\GlamourSAS\modelo_entrenado"
+modelo_path = 'Danielfe795/FelipeGlamorStudio'
 tokenizer = AutoTokenizer.from_pretrained(modelo_path)
 model = AutoModelForSeq2SeqLM.from_pretrained(modelo_path)
 
